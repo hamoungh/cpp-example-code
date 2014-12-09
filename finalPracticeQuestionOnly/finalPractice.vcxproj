@@ -10,10 +10,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="q1\program.cpp" />
-    <ClCompile Include="q1\q1-answer.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A95A73BE-83EE-4CE4-BC85-94A3F2BCE0C8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -80,6 +76,10 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="q1-answer.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -10,8 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="q2-answer.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{951B1056-34E4-4DCA-9443-BDDD696A8B78}</ProjectGuid>
+    <ProjectGuid>{AE3021D4-D4AE-4484-BF78-863AE106AF23}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>q2</RootNamespace>
   </PropertyGroup>
@@ -75,10 +79,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="program.cpp" />
-    <ClCompile Include="q2-answer.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

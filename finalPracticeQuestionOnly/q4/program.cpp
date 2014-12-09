@@ -14,8 +14,10 @@ using namespace std;
 
 void initialize_game(int matrix[][3]); 
 int main(){
+
 	int m[3][3]; 
 	initialize_game(m);
+	// printing the array 
 	for(int i=0; i<=2; i++) {
 		for(int j=0; j<=2; j++)
 			cout << m[i][j] << " "; 
